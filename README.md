@@ -8,7 +8,7 @@ The framework includes:
 - finite-difference forward solver
 - PINN surrogate model
 - polygon parameterization for inverse reconstruction
-- hybrid optimization (Adam + LBFGS)
+- hybrid optimization (AdamW + LBFGS)
 
 This repository is currently private while the associated research
 manuscript is under preparation.
