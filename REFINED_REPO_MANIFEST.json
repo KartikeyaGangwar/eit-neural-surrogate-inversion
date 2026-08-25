@@ -1,0 +1,589 @@
+{
+  "total_files": 146,
+  "files": {
+    ".gitignore": {
+      "sha256": "8d53dde9454c12211e48d9f5593e8ce9914a98e6002ed38622c3589a3c4f7989",
+      "size_bytes": 306
+    },
+    "DEEP_ENSEMBLE_EXPERIMENT_REPORT.md": {
+      "sha256": "bcc1157705e0f73fd90c4a8385922da017e59386155bb885ad8c7e7a3fa52831",
+      "size_bytes": 4479
+    },
+    "EXPERIMENTAL_RESULTS_SUMMARY.md": {
+      "sha256": "8bac7860aa1227fe71b1ead46be9e458563e52a3a3036443c0f0f4dba3ea97f6",
+      "size_bytes": 2435
+    },
+    "LICENSE": {
+      "sha256": "6c540ece81d60da5889ab9df5d0c17257d4e9ed0504815ad9c934f154fdf80e0",
+      "size_bytes": 1090
+    },
+    "NOISE_EXPERIMENT_REPORT.md": {
+      "sha256": "d4d14ff4b891b58dc374f2ad4dee4b9b33989cd245f9d723e31d19caba9f12ef",
+      "size_bytes": 3508
+    },
+    "README.md": {
+      "sha256": "bbd88c72c753f32fd3e2135f276f8b667fcde702d5be9fdff4a7a2a10ec7dc93",
+      "size_bytes": 22829
+    },
+    "REFINED_REPO_MANIFEST.json": {
+      "sha256": "0048346b0d301fa7ead6e2d17121d7d1cff4a075adca76996d2b8e89ec6a3448",
+      "size_bytes": 39622
+    },
+    "REPRODUCIBILITY_MAP.md": {
+      "sha256": "bca8907b573aa16633e13688a748945cf20766a583c0d85918ea425237d9cd2d",
+      "size_bytes": 4277
+    },
+    "config.py": {
+      "sha256": "4a5f06d24b9b47c69e1644d1d433c15f2a77c9a774cd753f6af2f066f99fbc3c",
+      "size_bytes": 5248
+    },
+    "main.py": {
+      "sha256": "20f8253fa6016e11b79eb5e7351ed3992398b40034f5169c297b9f5d8361b9bb",
+      "size_bytes": 7856
+    },
+    "requirements.txt": {
+      "sha256": "1174859fa1708f79bd9a06719e7a250e9e5b2b0eda1b56407f19357aad855049",
+      "size_bytes": 126
+    },
+    "data\\README.md": {
+      "sha256": "2230e0df2fd1fee972a6aeacf79718df01583ff211d9a3b35f5cb443faf3ea28",
+      "size_bytes": 5022
+    },
+    "data\\results\\deep_ensemble_results.json": {
+      "sha256": "d0d81ab696c5231878e5c924b5f0dfb9f0c14ac3d2b3e01e99d4d224e55ff5f5",
+      "size_bytes": 170940
+    },
+    "data\\results\\inversion_results.json": {
+      "sha256": "8978e4546eec799ec05a4927c4f66eb46cdb1aa5e7fcdc67bcf1488794ebfda4",
+      "size_bytes": 20231
+    },
+    "data\\results\\lbfgs_convergence_log.json": {
+      "sha256": "2c0944abafa2842e95e46184a940ac3a8f0ed5cad1678480a1737d22dda90f02",
+      "size_bytes": 37650
+    },
+    "data\\results\\noise_robustness_results.json": {
+      "sha256": "b26bd5078ad1e6d9a255684485c907d20a1c2983ac37c541c1ed0cc06c327cd3",
+      "size_bytes": 568195
+    },
+    "data\\results\\training_history.json": {
+      "sha256": "b6689aa5b3631bdf34557e39cdeda4c522aa23d050fb6aee0666b076c74a3334",
+      "size_bytes": 31745
+    },
+    "data\\results\\validation_metrics.json": {
+      "sha256": "34569da3da07a127a233b615e9c2884da45aa8139dff84730b6cdce418a06d35",
+      "size_bytes": 17698
+    },
+    "data\\targets\\held_out_9_targets.json": {
+      "sha256": "9ba349edda45114b16807f13b4dc7f394ab229886433f6465938e7ad49b2232d",
+      "size_bytes": 503052
+    },
+    "figures\\README.md": {
+      "sha256": "5c9ccfce3d265fa444b8a1fc53642d9211dba3d976d8889f41cf6698fb483bc6",
+      "size_bytes": 2212
+    },
+    "figures\\deep_ensemble\\fig_E4A_ensemble_inversion_targets1_3.pdf": {
+      "sha256": "448299ba06310f134047e1365ea37d7163cf6ecd1401317c7752936ff691076a",
+      "size_bytes": 107082
+    },
+    "figures\\deep_ensemble\\fig_E4A_ensemble_inversion_targets1_3.png": {
+      "sha256": "5b7db3215efbc1541853238889b629d6759296ed09da7ca2d06b1be86a8e3d04",
+      "size_bytes": 619604
+    },
+    "figures\\deep_ensemble\\fig_E4A_reconstruction_targets_1_to_3.pdf": {
+      "sha256": "2a3df60fab57c8a6d6888077d05a0cf1188bb2f96c5d43801d7a503406aa6c2d",
+      "size_bytes": 114822
+    },
+    "figures\\deep_ensemble\\fig_E4A_reconstruction_targets_1_to_3.png": {
+      "sha256": "e1b23023716212a189fd5c24934c5764d77734575f2639faa12254fdc92e7ef9",
+      "size_bytes": 655272
+    },
+    "figures\\deep_ensemble\\fig_E4B_ensemble_inversion_targets4_6.pdf": {
+      "sha256": "da438cedc58b288dab5154817f826415744b6c27cfe2e1f70add180e395a4012",
+      "size_bytes": 113161
+    },
+    "figures\\deep_ensemble\\fig_E4B_ensemble_inversion_targets4_6.png": {
+      "sha256": "bd576ae1eac63ce86155d432149102e844db7f095dae4a9a4d296f69fde0db15",
+      "size_bytes": 681643
+    },
+    "figures\\deep_ensemble\\fig_E4B_reconstruction_targets_4_to_6.pdf": {
+      "sha256": "4e0359649551268ba8ea254acc79e358c0d82ce27603bd569b445acd9a2efd21",
+      "size_bytes": 120011
+    },
+    "figures\\deep_ensemble\\fig_E4B_reconstruction_targets_4_to_6.png": {
+      "sha256": "7363c7ce36b3163e024e599a1148980264337db447da98412e9481a896189f3b",
+      "size_bytes": 715300
+    },
+    "figures\\deep_ensemble\\fig_E4C_ensemble_inversion_targets7_9.pdf": {
+      "sha256": "5b874c88631ca3a6bc3a75882f1ec41549336509418acdad00998f513f05247d",
+      "size_bytes": 115066
+    },
+    "figures\\deep_ensemble\\fig_E4C_ensemble_inversion_targets7_9.png": {
+      "sha256": "af7cf1e06d044d572648f03a5a1ce31575c4c6c7296f29ed18e18041e08f4d66",
+      "size_bytes": 691724
+    },
+    "figures\\deep_ensemble\\fig_E4C_reconstruction_targets_7_to_9.pdf": {
+      "sha256": "f1396a378874b0b3fae5bfd1a59badbd8a9492c074756e696b46ec4d098e828d",
+      "size_bytes": 120973
+    },
+    "figures\\deep_ensemble\\fig_E4C_reconstruction_targets_7_to_9.png": {
+      "sha256": "3a626d2aee2cf0f71a731ffa24db43cc2c415f2a9a6936facd47ae93ea0885a3",
+      "size_bytes": 727729
+    },
+    "figures\\deep_ensemble\\fig_E4_ensemble_inversion_gallery.pdf": {
+      "sha256": "84461c4d1d869a2beb1772e804697da09e487f6706de5d0e6bc72796a50bb6d4",
+      "size_bytes": 239001
+    },
+    "figures\\deep_ensemble\\fig_E4_ensemble_inversion_gallery.png": {
+      "sha256": "48c372fa2b5f93eca693c7f84f7b529084f01e831dbdd760092573fb96d41f58",
+      "size_bytes": 1318026
+    },
+    "figures\\deep_ensemble\\fig_J3_2d_spatial_epistemic_uncertainty.pdf": {
+      "sha256": "39c0721932dfb767afb48558174f3db2392cd45dbb4772246e002dc4dd0c43cb",
+      "size_bytes": 761740
+    },
+    "figures\\deep_ensemble\\fig_J3_2d_spatial_epistemic_uncertainty.png": {
+      "sha256": "9b4f78ec3508f542bfe8fcedf64b7ded353fb739ddaed7b8bb144920a2fb087a",
+      "size_bytes": 1107757
+    },
+    "figures\\inversion_diagnostics\\fig_J5_multistart_optimization_landscape.pdf": {
+      "sha256": "b836b13faf288f94d0141b984adb53f9ff0932570d903854bb9ad66e07c34509",
+      "size_bytes": 198141
+    },
+    "figures\\inversion_diagnostics\\fig_J5_multistart_optimization_landscape.png": {
+      "sha256": "caccc787a916764ea39e23ea903b9c1428e53f866fda1c79b811faae4dcddcab",
+      "size_bytes": 391424
+    },
+    "figures\\main\\fig3_forward_surrogate_accuracy.pdf": {
+      "sha256": "2be5a85f3d9088912a681dc559f7824c35e920038ce56451bcf5106e950f37f3",
+      "size_bytes": 66938
+    },
+    "figures\\main\\fig3_forward_surrogate_accuracy.png": {
+      "sha256": "507bfa62f7a94999db500aced75bcd192168d72d6308ae25e6867337cd87c995",
+      "size_bytes": 381827
+    },
+    "figures\\main\\fig4A_zero_fem_inversion_targets1_3.pdf": {
+      "sha256": "cba055bb1c019f8a245977c99a43eeefbd8f382456602ce8a0cf829e5edc7aa0",
+      "size_bytes": 107082
+    },
+    "figures\\main\\fig4A_zero_fem_inversion_targets1_3.png": {
+      "sha256": "5b7db3215efbc1541853238889b629d6759296ed09da7ca2d06b1be86a8e3d04",
+      "size_bytes": 619604
+    },
+    "figures\\main\\fig4A_zero_fem_inversion_targets_1_to_3.pdf": {
+      "sha256": "b1646064cfd610107ebe37d1519ef8d1a29701293513cb5c8f3305b6e3d71737",
+      "size_bytes": 114822
+    },
+    "figures\\main\\fig4A_zero_fem_inversion_targets_1_to_3.png": {
+      "sha256": "e1b23023716212a189fd5c24934c5764d77734575f2639faa12254fdc92e7ef9",
+      "size_bytes": 655272
+    },
+    "figures\\main\\fig4B_zero_fem_inversion_targets4_6.pdf": {
+      "sha256": "3505a30248f6c8d2a294eba9b5e8aa073b9bb59db4860ea53dacfd0c5405f1d7",
+      "size_bytes": 113161
+    },
+    "figures\\main\\fig4B_zero_fem_inversion_targets4_6.png": {
+      "sha256": "bd576ae1eac63ce86155d432149102e844db7f095dae4a9a4d296f69fde0db15",
+      "size_bytes": 681643
+    },
+    "figures\\main\\fig4B_zero_fem_inversion_targets_4_to_6.pdf": {
+      "sha256": "3862ea66c596138844be331eeeb2eaa253d8c81c10cafdc32abe9118f1588df0",
+      "size_bytes": 120011
+    },
+    "figures\\main\\fig4B_zero_fem_inversion_targets_4_to_6.png": {
+      "sha256": "7363c7ce36b3163e024e599a1148980264337db447da98412e9481a896189f3b",
+      "size_bytes": 715300
+    },
+    "figures\\main\\fig4C_zero_fem_inversion_targets7_9.pdf": {
+      "sha256": "475ac1bf2d3115d1621f5de64fa4fab3d6c793d219d57b7078523ec0da8b6c89",
+      "size_bytes": 115066
+    },
+    "figures\\main\\fig4C_zero_fem_inversion_targets7_9.png": {
+      "sha256": "af7cf1e06d044d572648f03a5a1ce31575c4c6c7296f29ed18e18041e08f4d66",
+      "size_bytes": 691724
+    },
+    "figures\\main\\fig4C_zero_fem_inversion_targets_7_to_9.pdf": {
+      "sha256": "cc87912934f01e00cc11882bfbd1463ffa400b0f167eb2bb5032eef4838d2636",
+      "size_bytes": 120973
+    },
+    "figures\\main\\fig4C_zero_fem_inversion_targets_7_to_9.png": {
+      "sha256": "3a626d2aee2cf0f71a731ffa24db43cc2c415f2a9a6936facd47ae93ea0885a3",
+      "size_bytes": 727729
+    },
+    "figures\\main\\fig4_zero_fem_inversion_gallery.pdf": {
+      "sha256": "10ab24c2b4fabd5a2e585a6b1c5f43a8de3e5ef1aafabfe29af31db93122a20e",
+      "size_bytes": 239001
+    },
+    "figures\\main\\fig4_zero_fem_inversion_gallery.png": {
+      "sha256": "48c372fa2b5f93eca693c7f84f7b529084f01e831dbdd760092573fb96d41f58",
+      "size_bytes": 1318026
+    },
+    "figures\\main\\fig_J1_sobolev_regularization_ablation.pdf": {
+      "sha256": "301af445052575dd987abb3e4e0a98ceaa67df14e9f1c58664bcd7c480578592",
+      "size_bytes": 75019
+    },
+    "figures\\main\\fig_J1_sobolev_regularization_ablation.png": {
+      "sha256": "e0a0c43745bfc7348cd6142a40c2ebc7a7a432dab1a5294d021c257497d9762f",
+      "size_bytes": 300566
+    },
+    "figures\\noise_robustness\\fig_N1_noise_vs_iou_rms.pdf": {
+      "sha256": "775113430ccbaad98cc61b143601a88adc3150e93e361643741cd06586bde0e5",
+      "size_bytes": 49738
+    },
+    "figures\\noise_robustness\\fig_N1_noise_vs_iou_rms.png": {
+      "sha256": "531f93702e17c643cbae59c9bde556518918da77dd61981f02ae9f9693afe397",
+      "size_bytes": 304980
+    },
+    "figures\\schematic\\fig1_computational_domain_schematic.pdf": {
+      "sha256": "b9c1614814d3c382293bdbafbb830efc93ac6c4c9d3393ba71fdbb7c02d03ad7",
+      "size_bytes": 33721
+    },
+    "figures\\schematic\\fig1_computational_domain_schematic.png": {
+      "sha256": "262a98019dad0c42cb5bde36108e2bb555d0c9e6ec8b81d8aacf5131ef52ca7a",
+      "size_bytes": 222336
+    },
+    "matlab\\README.md": {
+      "sha256": "00fdf3af0cf95a04885e44886cd4d400d24e7b093a28aa514c23627c8132018e",
+      "size_bytes": 3765
+    },
+    "matlab\\polygon_conductivity_bspline.m": {
+      "sha256": "b729c06c42c49bb733f6ffb523371961763bba6f09fa5f3dea2d7634ee100715",
+      "size_bytes": 4658
+    },
+    "matlab\\test_bspline_conductivity_derivative.m": {
+      "sha256": "00f0186a260b05a4ffecc97e7e489d71aeaaff0708fc05a43fff94acd45c5985",
+      "size_bytes": 2210
+    },
+    "matlab\\test_polygon_conductivity_bspline.m": {
+      "sha256": "b7cf2ff7b03a193bda1098b2d5940897c5d3074a2fdff386bad2b78d4f47befb",
+      "size_bytes": 5556
+    },
+    "matlab\\test_stage3_eidors_conductivity_jacobian.m": {
+      "sha256": "f1a98e24cf679b691ce438bff99f4666dc7c4d1bf3ecb96f3f413468501abc4e",
+      "size_bytes": 13716
+    },
+    "matlab\\test_stage4_mesh_convergence.m": {
+      "sha256": "1ca3065372f8cc3ec66dcf1c11275038b7b239ae8e9176bb0c569ba1b04579fe",
+      "size_bytes": 20121
+    },
+    "matlab\\test_stage4_mesh_convergence_directional.m": {
+      "sha256": "170f7d438e60663ff7388218b5d76de74412a35122858836f722bbc052b73288",
+      "size_bytes": 28930
+    },
+    "models\\README.md": {
+      "sha256": "17745bdae3752dd9f9141395e18c4a8bfceb902b89eb2b86fe977ec546a469d5",
+      "size_bytes": 3557
+    },
+    "models\\surrogate_10k_final.pt": {
+      "sha256": "8301aa04adf710fcfd8ad12ae12e67dc4c623a576b7d6061bc0e4cd6042753a5",
+      "size_bytes": 16806207
+    },
+    "models\\deep_ensemble\\ensemble_member_0_seed42.pt": {
+      "sha256": "8301aa04adf710fcfd8ad12ae12e67dc4c623a576b7d6061bc0e4cd6042753a5",
+      "size_bytes": 16806207
+    },
+    "models\\deep_ensemble\\ensemble_member_1_seed142.pt": {
+      "sha256": "bbbf3d996ce8f624388809e76e6a87438508ef2daf46adf7b3d88d0d11969e5e",
+      "size_bytes": 16792919
+    },
+    "models\\deep_ensemble\\ensemble_member_2_seed242.pt": {
+      "sha256": "64606da26052705094b01ced47664831088ead244d371ac7c5a3832be4ece4aa",
+      "size_bytes": 16792919
+    },
+    "models\\deep_ensemble\\ensemble_member_3_seed342.pt": {
+      "sha256": "d48187001bfcd0a83a782027e6ec50be7e80c57d4230a5584c433a8f39060dd0",
+      "size_bytes": 16792919
+    },
+    "models\\deep_ensemble\\ensemble_member_4_seed442.pt": {
+      "sha256": "8829e4dcacd18b817513720d1659e25850f0f0c1697966539ea392333d10a8c8",
+      "size_bytes": 16792919
+    },
+    "scripts\\README.md": {
+      "sha256": "0971aa12e972ec2d0ce3fe141b396d373d3ec2deacd5f073a11264543c1ee612",
+      "size_bytes": 2596
+    },
+    "scripts\\generate_all_ensemble_and_lm_figures.py": {
+      "sha256": "3eb31420686104c21c8e929a4d1a2ddcc7e23c5f2f0fcb7014cc8835de1bac73",
+      "size_bytes": 32935
+    },
+    "scripts\\generate_dataset.py": {
+      "sha256": "b97c0359a470d884626dcc9cdd4dd368a3d0949a901ff8e4455e6b0b703f56c5",
+      "size_bytes": 6284
+    },
+    "scripts\\generate_journal_tpami_figures.py": {
+      "sha256": "a574afbbb68dee5fadc74161eeefb679e9e64c13d0b650f28cb074af8d0f541a",
+      "size_bytes": 31146
+    },
+    "scripts\\generate_publication_figures.py": {
+      "sha256": "36a88396bc3bb35508acfd6bb51df2310fea58c04f8cf5eaa47cbf8ef74a344c",
+      "size_bytes": 64915
+    },
+    "scripts\\plot_computational_domain_schematic.py": {
+      "sha256": "934ff7ee0e891e80b2d8db146e27e85a4f231d63767c0fda7172888f1ee40f39",
+      "size_bytes": 11077
+    },
+    "scripts\\plot_computational_domain_setup.py": {
+      "sha256": "8f7758dec948648d1d639be823b23ccb721c8d775f91749e0163d1a4a8c63579",
+      "size_bytes": 8925
+    },
+    "scripts\\plot_ensemble_results.py": {
+      "sha256": "19de902bb33a87fa72724e0fa1c8ea5e28515d60c68d6624e1dfe099f53601b1",
+      "size_bytes": 14599
+    },
+    "scripts\\plot_noise_results.py": {
+      "sha256": "495b659d2dc4510d1101bbe9a4836939a34704892bd05911b91d9cfc23206a5d",
+      "size_bytes": 12256
+    },
+    "scripts\\run_deep_ensemble.py": {
+      "sha256": "d7e62c3aa0b3a6549aad8041ec7968402141bed75d1977bb5f8547363ae10708",
+      "size_bytes": 6038
+    },
+    "scripts\\run_inversion.py": {
+      "sha256": "47947938cd6294ad5a948f3ec058af9bdd1c19db83d72221860f1b7cdc89c094",
+      "size_bytes": 5029
+    },
+    "scripts\\run_master_ensemble_inversion.py": {
+      "sha256": "9f52538b9bf33d63f3a204a57dfb93b097e67631183cbbf96c72c06c127ab1f3",
+      "size_bytes": 11743
+    },
+    "scripts\\run_master_validation.py": {
+      "sha256": "fc10514b82114078a853a4847ac59dfd46a591640e752d62448e073d6075b6fd",
+      "size_bytes": 6481
+    },
+    "scripts\\run_noise_robustness.py": {
+      "sha256": "06e7db4fd0d289265d16b34c2c6abff1c6d907a290bae67ce11e610e6f275e4e",
+      "size_bytes": 10934
+    },
+    "scripts\\train_surrogate.py": {
+      "sha256": "e449bbc9dad405c46150ee4994fb37a8e515de1076ff59aa0cb8f126d6cd9375",
+      "size_bytes": 4160
+    },
+    "src\\README.md": {
+      "sha256": "9abf69f286fc42e1c01113e4bbeb25d83909383be083807cb52471ee7a0a5b2e",
+      "size_bytes": 5050
+    },
+    "src\\__init__.py": {
+      "sha256": "91eed4aaf01505e536f2e4e5c9191f0664ed675bf902111884784721b619937a",
+      "size_bytes": 28
+    },
+    "src\\dataset\\__init__.py": {
+      "sha256": "d8a34298df384db749a2be7b13e0805b8627bfcc1568630e3347ec3ad4f5c5d3",
+      "size_bytes": 23
+    },
+    "src\\dataset\\generator.py": {
+      "sha256": "7d3cfc82e9353d4cb2afe0adbeed980450b4cd40f47b25c1ccdd2bb2b40195bd",
+      "size_bytes": 6574
+    },
+    "src\\dataset\\sampler.py": {
+      "sha256": "84abab1928dc57d81f37f39ed8b177e4c21f4a5a295447c32310253ef9e25563",
+      "size_bytes": 9591
+    },
+    "src\\dataset\\storage.py": {
+      "sha256": "2853f5681c8630a92c92f64e090914ff90084656105acdbdb3e10b5b221529a6",
+      "size_bytes": 15616
+    },
+    "src\\ensemble\\__init__.py": {
+      "sha256": "23e82895d8eb97bbca2b2728dcf84e7081092c505409a9f5221eec244a5f9b87",
+      "size_bytes": 104
+    },
+    "src\\ensemble\\model.py": {
+      "sha256": "65408ca9aebf531919fe319fe4958115e53c09b3b94c61a89e911357773ec122",
+      "size_bytes": 3450
+    },
+    "src\\geometry\\__init__.py": {
+      "sha256": "aeef4c8b87687f685e38ba65fda5a66cd564640fb6b4a15c3e73570e810dc27d",
+      "size_bytes": 380
+    },
+    "src\\geometry\\bspline.py": {
+      "sha256": "4f281daea2b83ed0f89e1b7a8369de950c48f850c9e3d863b517073500cf3a29",
+      "size_bytes": 5027
+    },
+    "src\\geometry\\conductivity.py": {
+      "sha256": "d8ed448730dc8ed826dddd7df0a98ca824adcd6395da960841a37a088369b99c",
+      "size_bytes": 8314
+    },
+    "src\\geometry\\parameters.py": {
+      "sha256": "5348624cbae7ba8132416330cd1fa26cd9f89742252ea1e4645e4b545b2580c2",
+      "size_bytes": 8992
+    },
+    "src\\geometry\\shape_library.py": {
+      "sha256": "9f23ef7afa40f363dff5717108e735fb3819e3d26b400b04dce3f7b4e8c69f08",
+      "size_bytes": 7954
+    },
+    "src\\geometry\\shape_to_bspline.py": {
+      "sha256": "a9af4101e1109483b216ae839bf7ac2178a305281128090bd2f5610f9295e827",
+      "size_bytes": 3205
+    },
+    "src\\inversion\\__init__.py": {
+      "sha256": "7a645ae903e0094d073a012b2b85bced6b650f7bdf4a7904a495c5358ac41296",
+      "size_bytes": 25
+    },
+    "src\\inversion\\diagnostics.py": {
+      "sha256": "61351b84179060495af13e67dee047f99c8e0bc98638e2552d687e5e3a91c095",
+      "size_bytes": 1527
+    },
+    "src\\inversion\\evaluation.py": {
+      "sha256": "5c0edac606cdfd0e31d1b45dd3a6dce50b23a6128b903acdae01fb0126bf6d40",
+      "size_bytes": 1656
+    },
+    "src\\inversion\\initialization.py": {
+      "sha256": "54562051522dbf97af7165a654467a136141e524c97cbe3f691c14fa07161306",
+      "size_bytes": 2697
+    },
+    "src\\inversion\\jacobian.py": {
+      "sha256": "a397e922313e9eb7b268c8a2cab677d0fe2aa4f77b391487e8a42d63b9e11b6c",
+      "size_bytes": 931
+    },
+    "src\\inversion\\lm_solver.py": {
+      "sha256": "2708d7ef6e833e05ce37cae758640c7f2056c4634693be3eb94a6b7cd9ca3209",
+      "size_bytes": 7758
+    },
+    "src\\inversion\\multistart.py": {
+      "sha256": "fac2d33913a29a3dd23bf72ab37be95245f45b573161b5030470fe66bb065635",
+      "size_bytes": 3517
+    },
+    "src\\inversion\\normalization.py": {
+      "sha256": "324fc193e9cd78f298550d818c0bbafc0753f7ecbeea4975f6544986b7fe99ac",
+      "size_bytes": 1568
+    },
+    "src\\inversion\\objective.py": {
+      "sha256": "c37d881f34101728b1f6fa219315df847ca9093eeac5611ebd4bdc35a2fec725",
+      "size_bytes": 1077
+    },
+    "src\\inversion\\problem.py": {
+      "sha256": "490730b7207fe696b8eb042971b5dd7363ae317f66926f7434f97c567796a962",
+      "size_bytes": 2059
+    },
+    "src\\inversion\\reconstruction.py": {
+      "sha256": "178239d60e2f58878a7a845373e9ef2259849983a3f7d0b8f2029877c150f060",
+      "size_bytes": 4793
+    },
+    "src\\inversion\\residuals.py": {
+      "sha256": "9a23e1c8b1d234908320cdf8803a93659018d3be58918339cbab4a325bc99801",
+      "size_bytes": 6112
+    },
+    "src\\inversion\\scaling.py": {
+      "sha256": "953b9e83c19e4b7b399a221eb4d2ca6322d6907d36c6599521b8aaa7e9d6da74",
+      "size_bytes": 947
+    },
+    "src\\inversion\\shape_experiments.py": {
+      "sha256": "0381bd97f0813aeaf624b237015d9dcbcaf96af8679abe8568e2eb436e048300",
+      "size_bytes": 6124
+    },
+    "src\\inversion\\trust_region_solver.py": {
+      "sha256": "71f7afc6fa8d6012b181aac2a5fe5046665fb181368cc8ebf92b1820dc28fb4b",
+      "size_bytes": 3870
+    },
+    "src\\inversion\\uncertainty.py": {
+      "sha256": "7b0638f555541317a3a46981df48631c39aeb177e910f9ae591a0deb03613f08",
+      "size_bytes": 2909
+    },
+    "src\\noise\\__init__.py": {
+      "sha256": "1e0be2164d2c97053e2fce17368ee41d9a3e415baa625dfcbb5234911d675d4f",
+      "size_bytes": 120
+    },
+    "src\\noise\\noise_models.py": {
+      "sha256": "d1b9370fcda236478c713cc3ab6cae83301d9ad2cbfd37c30f4aac1d4004d78a",
+      "size_bytes": 1178
+    },
+    "src\\physics\\__init__.py": {
+      "sha256": "f6558486e84bf0f7dc3f082dee5d42fa3a6cbf2d2283b821ab056e541ebb81af",
+      "size_bytes": 485
+    },
+    "src\\physics\\fem_backend.py": {
+      "sha256": "20452aecb787c344d56f402800a41cae288541c45d185d98e85727698e0fb1c8",
+      "size_bytes": 17542
+    },
+    "src\\physics\\fem_backend_optimized.py": {
+      "sha256": "7fbca8bbede87c638fc03353fd9de5e86c3e16fa2c45f7e5a264e1b43a4b0e62",
+      "size_bytes": 12204
+    },
+    "src\\physics\\fem_forward.py": {
+      "sha256": "cbde9f32f92694c2e7804fb9ead4e8b5192e3f5694f1425447bb9abb59a839e2",
+      "size_bytes": 1026
+    },
+    "src\\physics\\fem_jacobian.py": {
+      "sha256": "36ec6c367c591826eaabc1b55256a7a021378b1208890dfc12c2150792ee4f27",
+      "size_bytes": 2127
+    },
+    "src\\physics\\fem_model.py": {
+      "sha256": "0f4c0317b13612e27f04bdee67c0e00bb1555a40eda6f82c959c6613cec5eb73",
+      "size_bytes": 1903
+    },
+    "src\\surrogate\\__init__.py": {
+      "sha256": "0b02c74059171e8420e52791cee23aac103105e1e775fe717ea044f7a733364f",
+      "size_bytes": 31
+    },
+    "src\\surrogate\\model.py": {
+      "sha256": "15677c24aabcd6a50898b4fd21bd3402cb522ff437ecd646ea45b5ea3ee0e5f3",
+      "size_bytes": 12226
+    },
+    "src\\surrogate\\sobolev_loss.py": {
+      "sha256": "c56f89a8319aae2a972128041dd71522141f32711689ffad0fa9d502aa41c19c",
+      "size_bytes": 2880
+    },
+    "src\\surrogate\\training.py": {
+      "sha256": "45c42b3c731f8e32764203d06fdb084c80911df89a30ad1a9aff6238d49eb4ca",
+      "size_bytes": 11056
+    },
+    "src\\utils\\__init__.py": {
+      "sha256": "bd2760e8c14db1d8a13467e448c770e952ef25c574a718dd54d9986136797aa4",
+      "size_bytes": 21
+    },
+    "src\\utils\\hardware.py": {
+      "sha256": "e80b47538281632abee8746d366583270a5143de1db4d45b7d7d1ae44bc671e2",
+      "size_bytes": 6767
+    },
+    "src\\utils\\io_utils.py": {
+      "sha256": "822d350036171557893b1d11dcb665da1d805e8776dee9a4b701762427d5b921",
+      "size_bytes": 1147
+    },
+    "src\\utils\\logger.py": {
+      "sha256": "167ed0497216064b2f586235a15068b684eeecc23613261fa525ba86a54c669c",
+      "size_bytes": 1669
+    },
+    "src\\utils\\reproducibility.py": {
+      "sha256": "78104c0a35fac7d2e4f667de3ef416000182b5783044be73b6c04f3fed25ca61",
+      "size_bytes": 699
+    },
+    "src\\validation\\__init__.py": {
+      "sha256": "d69cf0c0f68178e2c4c56c6c08d770ee0d4cc3a9024f9ebb8161475cb90e5777",
+      "size_bytes": 53
+    },
+    "src\\validation\\gen_reference_output.py": {
+      "sha256": "483ae9edbe1b76a3af0a1edb528abb55e532407843201e48ccea359f33fd1d77",
+      "size_bytes": 4709
+    },
+    "src\\validation\\val_A_conductivity_fd.py": {
+      "sha256": "7dc59b7fa3d2cf60a71e2fbbdd34ae2190ddfd83a06c090d53bfc2bf2af49914",
+      "size_bytes": 4266
+    },
+    "src\\validation\\val_B_fem_jsigma.py": {
+      "sha256": "36082e3fba6a153718adbcc0003698cd0fd81b8d1dcedc47b9cfa8db6f61d4d2",
+      "size_bytes": 6237
+    },
+    "src\\validation\\val_C_geometry_jacobian.py": {
+      "sha256": "70ca0acca7ef4e94627e30348009d0b21533cb210b9bc3221823e2e48cd6fc0c",
+      "size_bytes": 3581
+    },
+    "src\\validation\\val_D_matlab_comparison.py": {
+      "sha256": "66acb147b706ee995e1673462da227dfd7c7bd6d27ffb6bd505797fa4b66fbcf",
+      "size_bytes": 4704
+    },
+    "tests\\README.md": {
+      "sha256": "8b013d5744166c665cf42cabd9b8d1ee3c4b85858e07a35aa26a742b5482324d",
+      "size_bytes": 1266
+    },
+    "tests\\test_end_to_end_smoke.py": {
+      "sha256": "22b7c92dfc58567bdfdb773e00c5ac603ec2e019f0a51f1ac7e3e0ec1f6233f6",
+      "size_bytes": 8439
+    },
+    "visuals\\README.md": {
+      "sha256": "08628ae029d528ef2a13c25350ee1770621de96d2b172fdbd5823deb23bb077c",
+      "size_bytes": 1494
+    },
+    "visuals\\plot_computational_domain_schematic.py": {
+      "sha256": "934ff7ee0e891e80b2d8db146e27e85a4f231d63767c0fda7172888f1ee40f39",
+      "size_bytes": 11077
+    }
+  }
+}

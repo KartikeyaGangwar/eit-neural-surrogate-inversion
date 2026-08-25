@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+.pytest_cache/
+.coverage
+*.log
+
+# Environments
+venv/
+env/
+ENV/
+.env
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large datasets (stored externally)
+data/*.h5
+data/*.hdf5
+!data/README.md
