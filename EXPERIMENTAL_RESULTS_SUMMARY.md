@@ -19,18 +19,18 @@ This document aggregates the primary quantitative results of the Sobolev-regular
 - **Online FEM Solves:** $0$ ($N_{\text{FEM}}^{\text{online}} = 0$)
 
 ### 1.3 Deterministic Inverse Reconstruction (9 Held-Out Targets)
-- **Overall Mean IoU:** $0.8377$
-- **Overall Median IoU:** $0.8262$
-- **Convex Subgroup Mean IoU ($N=4$):** $0.9154$
-- **Concave Subgroup Mean IoU ($N=5$):** $0.7755$
-- **Mean Boundary RMS Distance:** $0.0842\text{ m}$
-- **Mean Solve Time:** $8.89\text{ s}$ per multi-start target
+- **Overall Mean IoU:** $0.8006$
+- **Overall Median IoU:** $0.7846$
+- **Convex Subgroup Mean IoU ($N=4$):** $0.8884$
+- **Concave Subgroup Mean IoU ($N=5$):** $0.7305$
+- **Mean Boundary RMS Distance:** $0.0323\text{ m}$ ($32.3\text{ mm}$)
+- **Mean Solve Time:** $3.39\text{ s}$ to convergence ($8.89\text{ s}$ matched 250-step budget)
 
 ### 1.4 Deep Ensemble Performance ($K=5$ Members)
 - **Forward Mean Relative Error:** $0.2393\%$ ($+2.41\%$ accuracy improvement)
 - **Epistemic Uncertainty Correlation:** Pearson $r = 0.5341$, Spearman $\rho = 0.5003$ ($p < 10^{-63}$)
-- **Ensemble Mean IoU:** **$0.8989$** (Convex: **$0.9630$**, Concave: **$0.8476$**)
-- **Ensemble Mean Boundary RMS:** **$0.0418\text{ m}$** ($50.34\%$ error reduction)
+- **Ensemble Mean IoU:** **$0.8235$** (Convex: **$0.8828$**, Concave: **$0.7760$**)
+- **Ensemble Mean Boundary RMS:** **$0.0320\text{ m}$** ($32.0\text{ mm}$)
 
 ### 1.5 Measurement Noise Robustness (234 Inversion Trials)
 - **Clean ($0.0\%$ noise):** Mean $\text{IoU} = 0.8335$, Median $\text{IoU} = 0.8262$, $\text{RMS} = 0.0806\text{ m}$

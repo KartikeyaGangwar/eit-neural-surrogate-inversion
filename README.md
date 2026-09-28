@@ -1,4 +1,4 @@
-﻿# Zero-Online-FEM Electrical Impedance Tomography via Sobolev-Regularized B-Spline Surrogates
+# Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
@@ -8,7 +8,7 @@
 
 This repository contains the official reference implementation, pretrained neural surrogate models, and reproducibility suite for the research paper:
 
-> **"Zero-Online-FEM Inverse Electrical Impedance Tomography via Directional Sobolev-Regularized B-Spline Surrogates"**
+> **"Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography"**
 
 ---
 
@@ -259,16 +259,16 @@ python main.py generate-figures
 ### 6.2 Zero-Online-FEM Inverse Reconstruction (9 Held-Out Targets)
 | Target Geometry | Target Category | Single IoU | Ensemble IoU | Ens. RMS (mm) | Single Post-Hoc FEM Err (%) | Single Solve Time (s) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Target #1: Circle** | Convex | $0.9329$ | **$0.9782$** | $9.8\,\mathrm{mm}$ | $0.841\%$ | $8.45\,\mathrm{s}$ |
-| **Target #2: Ellipse** | Convex | $0.9104$ | **$0.9654$** | $14.2\,\mathrm{mm}$ | $0.923\%$ | $8.62\,\mathrm{s}$ |
-| **Target #3: Rectangle** | Convex | $0.8842$ | **$0.9310$** | $28.4\,\mathrm{mm}$ | $1.204\%$ | $8.80\,\mathrm{s}$ |
-| **Target #4: Random Convex** | Convex | $0.9341$ | **$0.9774$** | $11.5\,\mathrm{mm}$ | $0.812\%$ | $8.50\,\mathrm{s}$ |
-| **Target #5: Star (6-Point)** | Concave | $0.7812$ | **$0.8621$** | $44.1\,\mathrm{mm}$ | $1.650\%$ | $9.10\,\mathrm{s}$ |
-| **Target #6: Banana** | Concave | $0.7640$ | **$0.8415$** | $48.2\,\mathrm{mm}$ | $1.720\%$ | $9.15\,\mathrm{s}$ |
-| **Target #7: Random Concave** | Concave | $0.7920$ | **$0.8590$** | $42.0\,\mathrm{mm}$ | $1.580\%$ | $8.95\,\mathrm{s}$ |
-| **Target #8: Star (5-Point)** | Concave | $0.7780$ | **$0.8492$** | $46.5\,\mathrm{mm}$ | $1.610\%$ | $9.20\,\mathrm{s}$ |
-| **Target #9: Crescent** | Concave | $0.7623$ | **$0.8262$** | $51.0\,\mathrm{mm}$ | $1.880\%$ | $9.25\,\mathrm{s}$ |
-| **Overall Mean** | — | **$0.8377$** | **$0.8989$** | **$32.0\,\mathrm{mm}$** | **$1.380\%$** | **$8.89\,\mathrm{s}$** |
+| **Target #1: Circle** | Convex | $0.9615$ | **$0.9765$** | $6.0\,\mathrm{mm}$ | $0.781\%$ | $2.84\,\mathrm{s}$ |
+| **Target #2: Ellipse** | Convex | $0.9034$ | **$0.9377$** | $12.5\,\mathrm{mm}$ | $0.942\%$ | $3.12\,\mathrm{s}$ |
+| **Target #3: Rectangle** | Convex | **$0.7846$** | $0.6610$ | $70.0\,\mathrm{mm}$ | $1.205\%$ | $3.45\,\mathrm{s}$ |
+| **Target #4: Random Convex** | Convex | $0.9039$ | **$0.9557$** | $8.4\,\mathrm{mm}$ | $0.893\%$ | $2.96\,\mathrm{s}$ |
+| **Target #5: Star (6-Point)** | Concave | $0.6375$ | **$0.8243$** | $28.6\,\mathrm{mm}$ | $2.140\%$ | $3.88\,\mathrm{s}$ |
+| **Target #6: Banana** | Concave | $0.7317$ | **$0.7405$** | $41.6\,\mathrm{mm}$ | $1.724\%$ | $3.61\,\mathrm{s}$ |
+| **Target #7: Random Concave** | Concave | $0.6401$ | **$0.6650$** | $49.8\,\mathrm{mm}$ | $1.512\%$ | $3.50\,\mathrm{s}$ |
+| **Target #8: Star (5-Point)** | Concave | **$0.7749$** | $0.7581$ | $36.6\,\mathrm{mm}$ | $1.402\%$ | $3.72\,\mathrm{s}$ |
+| **Target #9: Crescent** | Concave | $0.8681$ | **$0.8923$** | $34.0\,\mathrm{mm}$ | $1.825\%$ | $3.39\,\mathrm{s}$ |
+| **Overall Mean** | — | **$0.8006$** | **$0.8235$** | **$32.0\,\mathrm{mm}$** | **$1.380\%$** | **$3.39\,\mathrm{s}$** |
 
 ### 6.3 Measurement Noise Robustness (234 Multi-Start Inversion Trials)
 | Noise Fraction $\eta$ | Equivalent SNR | Success Rate ($\mathrm{IoU} \ge 0.50$) | Mean IoU | Median IoU | Convex Mean IoU | Concave Mean IoU | Mean Boundary RMS |
@@ -306,10 +306,10 @@ All 6 test cases verify:
 This project is released under the [MIT License](LICENSE).
 
 ```bibtex
-@article{eit_bspline_surrogate_2026,
-  title={Zero-Online-FEM Inverse Electrical Impedance Tomography via Directional Sobolev-Regularized B-Spline Surrogates},
-  author={Research Authors},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+@article{gangwar2026derivative,
+  title={Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography},
+  author={Gangwar, Kartikeya},
+  journal={IEEE Transactions on Computational Imaging},
   year={2026}
 }
 ```
