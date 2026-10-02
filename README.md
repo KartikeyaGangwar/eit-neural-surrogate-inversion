@@ -1,5 +1,6 @@
 # Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22096368.svg)](https://doi.org/10.5281/zenodo.22096368)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,7 +9,9 @@
 
 This repository contains the official reference implementation, pretrained neural surrogate models, and reproducibility suite for the research paper:
 
-> **"Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography"**
+> **"Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography"**  
+> *Author:* Kartikeya Gangwar (Department of Mathematics, University of Delhi)  
+> *Target Journal:* IEEE Transactions on Computational Imaging | *Open Access Preprint:* [10.5281/zenodo.22096368](https://doi.org/10.5281/zenodo.22096368)
 
 ---
 
@@ -310,6 +313,8 @@ This project is released under the [MIT License](LICENSE).
   title={Derivative-Informed Neural Forward Surrogates with Directional Sensitivity Supervision for Shape Inversion in Electrical Impedance Tomography},
   author={Gangwar, Kartikeya},
   journal={IEEE Transactions on Computational Imaging},
-  year={2026}
+  year={2026},
+  doi={10.5281/zenodo.22096368},
+  url={https://doi.org/10.5281/zenodo.22096368}
 }
 ```
